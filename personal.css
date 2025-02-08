@@ -1,0 +1,64 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("https://images.ctfassets.net/23aumh6u8s0i/5gieAxw4n3rxYsyjaAnhGm/aa67599b991ad67b3241bf730fc2a131/security_programming_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 1200%;
+}
+.navbar{
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  background-color: #8b6f47;
+}
+.logo p{
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+ul{
+  float: right;
+}
+li{
+  display: inline-block;
+  list-style: none;
+}
+li a{
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color: white;
+  text-decoration: none;
+}
+li a:hover{
+  color: white;
+}
+.hero {
+  text-align: center;
+  
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.image img{
+  position: absolute;
+  top: 25%;
+  border-radius: 50%;
+  border: 5px solid;
+}
+
+.highlight {
+  color: #8b6f47;
+}

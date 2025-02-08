@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+}
+.a{
+    text-align: center;
+}
+.a img{
+    border-radius: 100px;
+    
+}
+.row{
+    flex: 0%;
+}
